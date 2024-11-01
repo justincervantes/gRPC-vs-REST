@@ -6,11 +6,8 @@ This experiment aims to answer the question:
 
 # Results
 
-gRPC is transmitted slightly faster:
-- Best Case 5ms faster: REST: 4.1ms, gRPC 3.6ms
-- Worst Case: REST: 3.6ms, gRPC 3.6ms
-
-NB: Running locally will yield variable results, take it with a grain of salt
+gRPC is approximately 28.68% faster than REST averages (2.183 ms for REST vs. 1.557 ms for gRPC) when transmitting Alice in Wonderland
+NB: Running locally will yield variable results, this repo defaults to 10 iterations for each server type and averages, the above note was used for 1000 calls to average.
 
 # How to Run
 
