@@ -7,8 +7,10 @@ This experiment aims to answer the question:
 # Results
 
 gRPC is transmitted slightly faster:
-Best Case 5ms faster: REST: 4.1ms, gRPC 3.6ms
-Worst Case: REST: 3.6ms, gRPC 3.6ms
+- Best Case 5ms faster: REST: 4.1ms, gRPC 3.6ms
+- Worst Case: REST: 3.6ms, gRPC 3.6ms
+
+NB: Running locally will yield variable results, take it with a grain of salt
 
 # How to Run
 
